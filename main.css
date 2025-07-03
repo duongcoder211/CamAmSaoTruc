@@ -6,7 +6,8 @@
 }
 .wrapper {
     position: relative;
-    width: 84vw; margin: 0 auto;
+    width: 84vw;
+    margin: 0 auto;
     border: 1px solid black;
     border-radius: 10px;
     padding: 12px;
@@ -19,6 +20,7 @@
     background-color: black;
     position: absolute;
     top: 60px;
+    left: -12px;
 }
 .wrapper::after {
     content: "";
@@ -27,6 +29,7 @@
     background-color: black;
     position: absolute;
     top: 68px;
+    left: -12px;
 }
 .bottom-box {
     position: relative;
@@ -40,7 +43,7 @@
     background-color: black;
     position: absolute;
     top: 2px;
-    right: 0;
+    right: -12px;
 }
 .bottom-box::after {
     content: "";
@@ -49,6 +52,6 @@
     background-color: black;
     position: absolute;
     top: 10px;
-    right: 0;
+    right: -12px;
 }
 
